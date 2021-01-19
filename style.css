@@ -1,0 +1,254 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    color: #333333;/* задаем шрифт остальному*/
+}
+
+.wrapper {/*рабочая область сетка*/
+    max-width: 1396px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Стиль хэддера*/
+
+header.top_header .wrapper {
+    align-items: center;
+    display: flex;
+    height: 90px;
+    justify-content: flex-start; /*выравниваем враппер*/
+}
+    
+header.top_header .wrapper nav.left_nav ul,
+header.top_header .wrapper nav.right_nav ul{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex; /* задаем шрифт шапке*/
+}
+    
+header.top_header .wrapper nav.logo{
+    margin-left: 82px; /*Выравниваю лого относительно левого нава*/
+
+}  
+header.top_header .wrapper nav.right_nav{
+    margin-left: 554px; /*Выравниваю тест относительно логотипа*/
+
+}  
+
+header.top_header .wrapper nav.left_nav ul li{
+    margin-left: 0px;
+    margin-right: 72px;/* растояние между кнопками правого навбара*/
+    
+}
+
+/*-------------------------------------------------------------------*/
+
+
+
+
+/* ===================================================================================
+
+
+/*баннер*/
+
+/*выравниваем для адаптивности*/
+.backbanner {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/*выравниваем свг файл на размер экрана*/
+.backbanner .banner{
+    width: 100%;
+}
+
+/*конец*/
+
+
+/* ===================================================================================
+
+
+
+/*стили текстовых блоков*/
+
+.wrapper .global .pictext{ /*текст под картинкой*/
+    margin-bottom: 64;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #868686;
+}
+
+.wrapper .image1{ /*основные правила размещения картинки*/
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    width: 100%;
+}
+
+.wrapper .image5{/*Картинка другого размера*/
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 0 auto;
+    width: 100%;
+}
+
+.wrapper  .tripplextext{ /*special настройки для страницы цвета после 3х картинок*/
+    max-width: 688px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+.wrapper .tripplextext .image3{/*размер картинки др размера*/
+    max-width: 688px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    width: 100%;
+}
+.wrapper .image4{/*размер картинки др размера*/
+    max-width: 688px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 48px;
+    width: 100%;
+}
+
+/*глобал*/
+.wrapper .global{
+    margin-top: 90px;
+}
+
+/*Правила для нормального текста*/
+.wrapper .text p{
+    margin-top: 48px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;/* задаем шрифт остальному*/
+}
+
+/*Правила для жирного "выделенного текста"*/
+.wrapper .text b{
+        font-weight:400;  
+}
+
+/*Заголовки*/
+
+.wrapper .global h1{ /*Заголовки*/
+    margin-top: 64px;
+    font-size: 48px;
+}
+
+/*цитата*/
+.wrapper .citate{ /*Блок цитаты*/
+    height: 176px;
+    margin-top: 68px;
+}
+.wrapper .citate2{/*местоположение цитаты*/
+    margin-top: 68px;
+    vertical-align: top;
+}
+
+.wrapper .citate2 .image3{/*Полоска в цитате*/
+    vertical-align: top;
+    width: auto;
+}
+/*текст в цитате*/
+.wrapper .citate p{
+    vertical-align: top;
+    width: 1371px;
+    display: inline;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+.wrapper .citate2 p{ /*текст в цитате /выделенной части текста с полоской*/
+    line-height: 36px;
+    width: 436px;
+    font-size: 24px;
+    display: inline;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+/*кнопки расположение*/
+.wrapper .global .buttons {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.wrapper .global .buttons button{ /*кнопки вид*/
+    margin-right: 20px;
+    font-family: inherit;
+    width: 334px;
+    height: 100px;
+    border-radius: 16px;
+    background: #ffffff;
+    color: #000000;
+
+}
+
+
+
+/*=====================================================================*/
+
+.wrapper .citate2 .image2 {
+    max-width: 924px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    width: 100%;
+}
+/*текст в цитате*/
+
+
+
+
+/* ===================================================================================
+
+
+/*футтер*/
+
+/*выравниваем для адаптивности*/
+.backfotter {
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 240px;
+}
+/*выравниваем свг файл на размер экрана*/
+.backfotter .fotter{
+    width: 100%;
+}
+
+/*футтер*/
+
+
+/* ===================================================================================*/
+
+.wrapper .global .text .test_all{
+    margin-top: 60px;
+}
+ .wrapper .global .text .test_all .quiz-frame{
+
+    max-width: 1396px;
+    width: 100%;
+    margin: 0 auto;
+}
